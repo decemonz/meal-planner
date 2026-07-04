@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #f97316;
+  --primary-hover: #ea580c;
+  --primary-light: #fff7ed;
+  --danger: #ef4444;
+  --danger-hover: #dc2626;
+  --bg: #fefcf9;
+  --card: #ffffff;
+  --border: #fde68a;
+  --text: #292524;
+  --text-secondary: #a8a29e;
+  --accent-orange: #fb923c;
+  --accent-green: #86efac;
+  --accent-blue: #93c5fd;
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body {
+  min-height: 100vh;
+}
